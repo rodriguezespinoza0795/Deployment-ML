@@ -13,3 +13,8 @@
 	* `source venv/bin/activate`
 
 3. Install dependencies: `pip install -r notebooks/requirements.txt`
+
+
+export GOOGLE_APPLICATION_CREDENTIALS=$(realpath xxxx.json)
+
+echo $GOOGLE_APPLICATION_CREDENTIALS
