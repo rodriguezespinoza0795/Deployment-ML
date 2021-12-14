@@ -1,0 +1,14 @@
+schema: '2.0'
+stages:
+  prepare:
+    cmd: python src/prepare.py
+    deps:
+    - path: dataset/full_data.csv
+      md5: e879060f0f954c6a33a0bf9d82e5a5e1
+      size: 56027
+  training:
+    cmd: python src/train.py
+    deps:
+    - path: dataset/full_data.csv
+      md5: cce2fd234b03b357c0ddf879a71c7294
+      size: 170180

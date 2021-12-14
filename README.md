@@ -12,7 +12,10 @@
 	* `virtualenv -p /usr/local/bin/python3 venv`
 	* `source venv/bin/activate`
 
-3. Install dependencies: `pip install -r notebooks/requirements.txt`
+3. Install dependencies: 
+	* `pip install -r requirements.txt`
+	* `pip install -r notebooks/requirements.txt`
+	* `pip install -r src/requirements.txt`
 
 
 export GOOGLE_APPLICATION_CREDENTIALS=$(realpath xxxx.json)
