@@ -16,6 +16,9 @@
 	* `pip install -r requirements.txt`
 	* `pip install -r notebooks/requirements.txt`
 	* `pip install -r src/requirements.txt`
+	* `pip install -r api/requirements.txt`
+
+uvicorn api.main:app --reload
 
 
 export GOOGLE_APPLICATION_CREDENTIALS=$(realpath xxxx.json)
