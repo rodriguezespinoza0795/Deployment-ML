@@ -21,6 +21,6 @@
 uvicorn api.main:app --reload
 
 
-export GOOGLE_APPLICATION_CREDENTIALS=$(realpath xxxx.json)
+export GOOGLE_APPLICATION_CREDENTIALS=$(realpath beliveogmail-0b556db9be7d.json)
 
 echo $GOOGLE_APPLICATION_CREDENTIALS
