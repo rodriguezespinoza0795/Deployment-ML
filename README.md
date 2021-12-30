@@ -20,7 +20,9 @@
 
 uvicorn api.main:app --reload
 
-
 export GOOGLE_APPLICATION_CREDENTIALS=$(realpath xxxx.json)
 
 echo $GOOGLE_APPLICATION_CREDENTIALS
+
+DOCKER_BUILDKIT=1 docker build . -t model-api:v1
+docker run -p 8000:8000 model-api:v1
