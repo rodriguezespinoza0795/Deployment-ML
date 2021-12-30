@@ -1,0 +1,4 @@
+['remote "blv-model-dataset"']
+    url = gs://blv-model-dataset/dataset
+['remote "blv-model"']
+    url = gs://blv-model-dataset/model
